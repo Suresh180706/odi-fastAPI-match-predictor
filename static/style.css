@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(120deg,#0f2027,#203a43,#2c5364);
+    font-family: Arial;
+}
+
+.card {
+    width: 420px;
+    margin: 60px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+input, select {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+button {
+    background: linear-gradient(to right,#00b09b,#96c93d);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 18px;
+}
+
+.bar {
+    height: 14px;
+    border-radius: 8px;
+    background: #ddd;
+    overflow: hidden;
+    margin: 6px 0;
+}
+
+.fill {
+    height: 100%;
+    background: linear-gradient(90deg,#00c6ff,#0072ff);
+    transition: width 1.2s ease;
+}
